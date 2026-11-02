@@ -2399,7 +2399,7 @@ const PLAYS={"서울특별시":[{"n":"히어로보드게임카페 홍대1호점"
     __hubTW=setOpen;
   })();
   (function(){
-    const HK=$('hkpin'),PINS=[[$('foodpin'),-60],[$('tourpin'),-8.6],[$('hosppin'),42.9],[$('kidspin'),94.3],[$('autopin'),145.7],[$('staypin'),197.1],[$('rentpin'),248.6]],START=225;
+    const HK=$('hkpin'),PINS=[[$('foodpin'),-60],[$('tourpin'),-8.6],[$('hosppin'),42.9],[$('kidspin'),94.3],[$('autopin'),145.7],[$('staypin'),197.1],[$('rentpin'),248.6]],START=-45;
     const place=(g,deg)=>{const a=deg*Math.PI/180,c=Math.cos(a),s=Math.sin(a),P=r=>[200+r*c,200+r*s];
       const[dx,dy]=P(167),[lx,ly]=P(198),[cx,cy]=P(229),ln=g.querySelector('line'),pd=g.querySelector('.pd'),pc=g.querySelector('.pc'),tx=g.querySelector('text');
       ln.setAttribute('x1',dx);ln.setAttribute('y1',dy);ln.setAttribute('x2',lx);ln.setAttribute('y2',ly);
